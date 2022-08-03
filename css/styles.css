@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Kaisei Opti', serif;
+}
+
+h1 {
+  margin: 0;
+  line-height: 2;
+  color: #6ECF1D;
+  font-size: 4.5rem;
+  font-family: 'Merienda', cursive;
+}
+
+h2 {
+  color: #6ECF1D;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.75rem;
+}
+
+h3 {
+  color: #295B00;
+  font-size: 2rem;
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #429200;
+}
+
+hr {
+  width: 5%;
+  color: #bbff82;
+  margin: 150px auto;
+  border-style: dotted;
+  border-width: 1rem 0 0;
+}
+
+.top-container {
+  background-color: #bbff82;
+  padding-top: 120px;
+}
+
+.top-cloud {
+  position: absolute;
+  height: 250px;
+  top: -40px;
+  left: 65%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  height: 250px;
+  top: 350px;
+  right: 65%;
+}
+
+.mountain {
+  margin-top: 165px;
+  width: 50%;
+  position: relative;
+  top: 7px;
+}
+
+.profile-pic {
+  height: 300px;
+  margin-top: 100px;
+  border-radius: 50% 30%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 75px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.coding-img{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.ambigrams-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.middle-container {
+  margin-bottom: 100px;
+}
+
+.bottom-container {
+  padding: 50px 0 15px;
+  background-color: #6ECF1D;
+}
+
+.btn {
+  background: #6ECF1D;
+  background-image: -webkit-linear-gradient(top, #6ECF1D, #429200);
+  background-image: -moz-linear-gradient(top, #6ECF1D, #429200);
+  background-image: -ms-linear-gradient(top, #6ECF1D, #429200);
+  background-image: -o-linear-gradient(top, #6ECF1D, #429200);
+  background-image: linear-gradient(to bottom, #6ECF1D, #429200);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #A1E568;
+  text-decoration: none;
+}
+
+.get-in-touch {
+  margin: 80px 0;
+}
+
+.footer-link {
+  margin: 0 50px;
+  font-weight: bold;
+}
+
+.copyright {
+  font-size: 1rem;
+  color: #FFFFFF
+}
