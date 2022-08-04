@@ -30,6 +30,10 @@ a {
   color: #429200;
 }
 
+a:hover {
+  color: #bbff82;
+}
+
 hr {
   width: 5%;
   color: #bbff82;
